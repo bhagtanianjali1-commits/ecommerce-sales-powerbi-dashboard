@@ -67,7 +67,7 @@ Dashboard screenshots are available in the `screenshots/` folder:
 ## 📁 Repository Contents
 
 - `E commerce Dashboard.pbix` – Power BI dashboard file  
-- `screenshots/` – Dashboard preview images  
+- `Screenshots/` – Dashboard preview images  
 - `dataset/` – Source dataset (if applicable)  
 
 ---
