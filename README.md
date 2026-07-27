@@ -1,82 +1,120 @@
-# E-commerce Sales Performance Dashboard (Power BI)
+# Retail Sales Performance Dashboard | Power BI
 
-This project presents an interactive **Power BI dashboard** built to analyze **e-commerce sales performance, order trends, customer behavior, and target achievement** using transactional and sales target data.
+## Project Overview
 
-The dashboard focuses on understanding how sales teams, regions, order channels, and customer segments contribute to overall business performance.
+This project is an end-to-end Business Intelligence dashboard built in Power BI to analyze retail sales performance across multiple business dimensions. The dashboard enables stakeholders to monitor key business metrics, identify performance trends, evaluate profitability, and make data-driven decisions through interactive visualizations.
 
----
-
-## 📊 Dashboard Overview
-
-The dashboard enables analysis across multiple dimensions:
-
-- Sales performance vs targets  
-- Regional sales distribution  
-- Order trends and order sources  
-- Sales team and manager performance  
-- Customer segmentation and engagement  
-- Non-ordering customer behavior  
-
-Interactive filters allow users to explore insights dynamically.
+The project covers the complete analytics workflow, including data transformation, data modeling, DAX calculations, and dashboard development.
 
 ---
 
-## 🔍 Key Analysis Areas
+## Business Objectives
 
-### Sales Performance
-- Total sales vs total targets  
-- Sales deficit and target completion percentage  
-- Performance comparison across sales managers and teams  
-
-### Geographic Analysis
-- Country-wise sales contribution  
-- Regional sales trends over time  
-
-### Orders Analysis
-- Monthly order trend  
-- Order distribution by country and order source  
-- Orders handled by sales managers  
-
-### Customer Insights
-- Total customers and customer growth trend  
-- Sales by customer category  
-- Customer distribution by category and gender  
-- Percentage of customers who did not place orders  
+* Monitor overall sales and profitability
+* Analyze customer purchasing behavior
+* Evaluate product performance across categories
+* Track order demand trends
+* Identify return and shipping patterns
+* Discover profit drivers and business risks
 
 ---
 
-## 🛠 Tools & Techniques Used
+## Tools & Technologies
 
-- Power BI  
-- Power Query for data cleaning and transformation  
-- DAX measures for KPIs and calculated metrics  
-- Interactive visuals, slicers, and drill-down analysis  
-
----
-
-## 🖼 Dashboard Previews
-
-Dashboard screenshots are available in the `screenshots/` folder:
-- Sales Team Performance  
-- Sales by Country  
-- Orders Analysis  
-- Customer Insights & Segmentation  
+* Power BI Desktop
+* Power Query
+* DAX
+* Data Modeling
+* Interactive Visualizations
 
 ---
 
-## 📁 Repository Contents
+## Dashboard Pages
 
-- [`E commerce Dashboard.pbix`](./E%20commerce%20Dashboard.pbix) – Power BI dashboard file  
-- [`Screenshots`](./screenshots) – Dashboard preview images  
-- [`Dataset`](./Datasets) – Source dataset used for analysis  
+### 1. Executive Overview
+
+Provides a high-level summary of business performance using key performance indicators such as Sales, Profit, Orders, Customers, Return Rate, and Profit Margin.
 
 ---
 
-## 🎯 Project Focus
+### 2. Product Performance
 
-This project emphasizes:
-- Performance monitoring through interactive dashboards  
-- Exploratory analysis using filters and drill-downs  
-- Translating raw e-commerce data into actionable insights  
+Analyzes product categories and sub-categories to identify top-performing and underperforming products based on sales and profitability.
 
-The goal is to support **clear, data-driven understanding of sales performance, customer behavior, and operational trends**.
+---
+
+### 3. Returns & Shipping Analysis
+
+Evaluates returned orders, shipping performance, delivery trends, and areas contributing to higher return rates.
+
+---
+
+### 4. Customer Analysis
+
+Explores customer behavior, purchasing trends, customer contribution, and regional performance.
+
+---
+
+### 5. Order Demand Analysis
+
+Examines sales trends over time, seasonal demand patterns, and order distribution to support forecasting and planning.
+
+---
+
+### 6. Profitability & Risk Analysis
+
+Identifies high-profit and low-profit segments, evaluates profit margins, and highlights business areas requiring attention.
+
+---
+
+## Key Features
+
+* Multi-page interactive dashboard
+* KPI cards and business metrics
+* Dynamic slicers and filters
+* Drill-down analysis
+* DAX measures and calculated fields
+* Data transformation using Power Query
+* Star schema data model
+* Business-oriented visualizations
+
+---
+
+## Dashboard Preview
+
+> Add screenshots of all six dashboard pages here.
+
+---
+
+## Dataset
+
+Retail Sales Dataset containing sales transactions, customer information, product details, shipping information, returns, and geographic data.
+
+---
+
+## Repository Structure
+
+* Power BI (.pbix) file
+* Dashboard screenshots
+* README documentation
+
+---
+
+## Key Learnings
+
+This project strengthened my understanding of:
+
+* Data cleaning using Power Query
+* Data modeling in Power BI
+* DAX measures and KPI creation
+* Dashboard design principles
+* Business storytelling through data visualization
+* Interactive reporting and analytics
+
+---
+
+## Contact
+
+**LinkedIn:** [www.linkedin.com/in/anjalibhagtani1104](http://www.linkedin.com/in/anjalibhagtani1104)
+
+**Email:** [bhagtanianjali1@gmail.com](mailto:bhagtanianjali1@gmail.com)
